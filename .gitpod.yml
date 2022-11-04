@@ -1,0 +1,10 @@
+ports:
+  - port: 8080
+    onOpen: open-browser
+    visibility: public
+tasks:
+  - before: nvm install 16
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
